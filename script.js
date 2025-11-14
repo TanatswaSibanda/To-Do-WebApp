@@ -50,7 +50,6 @@ addButton.addEventListener('click', () => {
         <input type="text" placeholder="Enter task">
         <img src="icons/cancel.svg" alt="Cancel" class="cancel-button">
     `;
-
     tasksContainer.appendChild(task);
     activateTask(task);
 
