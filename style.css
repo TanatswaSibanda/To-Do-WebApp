@@ -30,6 +30,7 @@ body {
     height: auto;
     transform: none;
     z-index: 10;
+    display: block;
 
 }
 
@@ -40,6 +41,7 @@ body {
     width: 70px;
     height: auto;
     z-index: 5;
+    display: block;
 
 }
 
@@ -171,15 +173,11 @@ body {
 
 @media (max-width: 600px) {
     .top-image {
-        width: 60px;
-        top: -10%;
-        right: 5%;
+        display: none;
     }
 
     .side-image {
-        width: 50px;
-        left: -40%;
-        bottom: 2%;
+        display: none;
     }
 
     .card-container {
