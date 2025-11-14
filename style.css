@@ -173,12 +173,12 @@ body {
     .top-image {
         width: 60px;
         top: -8%;
-        right: 5%;
+        right: 10%;
     }
 
     .side-image {
         width: 50px;
-        left: -5%;
+        left: 5%;
         bottom: 2%;
     }
 
