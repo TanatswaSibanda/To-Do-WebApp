@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body {
@@ -52,6 +53,8 @@ body {
     overflow-x: hidden;
     position: relative;
     z-index: 100;
+    box-sizing: border-box;
+
 }
 
 .header {
