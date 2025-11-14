@@ -172,13 +172,13 @@ body {
 @media (max-width: 600px) {
     .top-image {
         width: 60px;
-        top: -8%;
-        right: 5%;
+        top: -12%;
+        right: 15%;
     }
 
     .side-image {
         width: 50px;
-        left: -5%;
+        left: -20%;
         bottom: 2%;
     }
 
