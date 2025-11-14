@@ -22,9 +22,9 @@ body {
 
 .top-image {
     position: absolute;
-    top: -135;
+    top: -80;
     left: 80%;
-    width: 200px;
+    width: 120px;
     height: auto;
     transform: translateX(-50%);
     z-index: 10;
@@ -44,7 +44,7 @@ body {
 .card {
     background-color: #FFEFF5;
     width: 500px;
-    height: 60vh;
+    height: 80vh;
     box-shadow: 0 4px 6px 8px rgba(0, 0, 0, 0.1);
     border-radius: 50px;
     overflow-y: auto;
@@ -155,4 +155,9 @@ body {
 .complete-button:hover {
     transform: scale(1.4);
     transition: 0.1s;
+}
+
+.task.completed input {
+    text-decoration: line-through;
+    opacity: 0.6;
 }
