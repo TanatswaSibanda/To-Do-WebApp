@@ -14,9 +14,6 @@ body {
 }
 
 .card-container {
-    position: relative;
-    margin: 0 auto;
-    overflow: visible;
     width: 90%;
     max-width: 400px;
     margin: 20px auto;
