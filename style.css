@@ -15,7 +15,8 @@ body {
 
 .card-container {
     position: relative;
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
     margin: 0 auto;
     overflow: visible;
 
@@ -24,7 +25,7 @@ body {
 .top-image {
     position: absolute;
     top: -80;
-    left: 80%;
+    left: 70%;
     width: 120px;
     height: auto;
     transform: translateX(-50%);
@@ -44,7 +45,10 @@ body {
 
 .card {
     background-color: #FFEFF5;
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    min-height: 60vh;
     height: 80vh;
     box-shadow: 0 4px 6px 8px rgba(0, 0, 0, 0.1);
     border-radius: 50px;
@@ -56,14 +60,15 @@ body {
 
 .header {
     background-color: #FFD6E8;
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
     height: 50px;
     border-radius: 28px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 100px;
-    margin-top: 20px;
+    padding: 0 10px;
+    margin: 20px auto;
 
 }
 
@@ -161,4 +166,30 @@ body {
 .task.completed input {
     text-decoration: line-through;
     opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+    .top-image {
+        width: 80px;
+        left: 70%;
+    }
+
+    .side-image {
+        width: 70px;
+        left: -50px;
+    }
+
+    .add-task {
+        width: 90%;
+
+    }
+
+    .header {
+        border-radius: 20px;
+        padding: 0 10px;
+    }
+
+    .task-text {
+        font-size: 12px;
+    }
 }
