@@ -172,14 +172,14 @@ body {
 @media (max-width: 600px) {
     .top-image {
         width: 60px;
-        top: -8%;
-        right: 10%;
+        top: -15px;
+        right: 10px;
     }
 
     .side-image {
         width: 50px;
-        left: 5%;
-        bottom: 2%;
+        left: -5px;
+        bottom: 5px;
     }
 
     .card-container {
